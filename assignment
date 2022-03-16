@@ -11,14 +11,14 @@ Fetch, pull, and push are git commands you can use to sync your local and remote
 | `git push` | &#88; | &check; | &check; |
 
 #### git fetch ####
-`git fetch` checks your current branch to find out if a tracking branch exists. Then, it checks for changes in the remote branch and brings them into the tracking branch. It doesn't change your local branch. To merge those changes into your local branch, you need to use `git merge`.
+`git fetch` checks your current branch to find out if a tracking branch exists. Then it checks for changes in the remote branch and brings them into the tracking branch. It doesn't change your local branch. To merge changes into your local branch, use `git merge`.
 
 #### git pull ####
 `git pull` performs `git fetch` followed immediately by `git merge`.
 
-`git fetch` and `git pull` are similar commands, but `git pull` does two things. Use a fetch followed by a merge when you need to make sure you understand the changes you'll merge into the local branch before the merge happens.
+`git fetch` and `git pull` are similar commands, but `git pull` does two things. When you need to make sure you understand the changes you'll merge into the local branch before the merge happens, use fetch and merge separately.
 
 #### git push ####
-`git push` checks your current branch to find out if it's connected to a tracking branch for a remote repository. Then, it pushes our local changes to the remote branch. `git push` is how you share code with a remote repository.
+`git push` is how you share code with a remote repository. This command checks your current branch to find out if it's connected to a tracking branch for a remote repository. Then it pushes your local changes to the remote branch.
 
-This command fails when commits in the remote branch aren't in your local branch. If your push fails, you need to synchronize your local branch with the remote branch with either a pull command or a fetch followed by a merge. Then, try your push again.
+This command fails when commits in the remote branch aren't in your local branch. If your push fails, you need to synchronize your local branch with the remote branch. Use either a pull command or a fetch followed by a merge. Then try your push again.
