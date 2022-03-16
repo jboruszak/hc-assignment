@@ -16,7 +16,7 @@ Fetch, pull, and push are git commands you can use to sync your local and remote
 #### git pull ####
 `git pull` performs `git fetch` followed immediately by `git merge`.
 
-`git fetch` and `git pull` are similar commands, but `git pull` does two things. Use git fetch followed by git merge when you need to make sure you understand the changes you'll merge into the local branch before the merge happens.
+`git fetch` and `git pull` are similar commands, but `git pull` does two things. Use a fetch followed by a merge when you need to make sure you understand the changes you'll merge into the local branch before the merge happens.
 
 #### git push ####
 `git push` checks your current branch to find out if it's connected to a tracking branch for a remote repository. Then, it pushes our local changes to the remote branch. `git push` is how you share code with a remote repository.
