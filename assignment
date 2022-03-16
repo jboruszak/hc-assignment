@@ -2,6 +2,8 @@
 
 ### What's the difference between fetch, pull, and push?
 
+Fetch, pull, and push are git commands you can use to sync your local and remote projects.
+
 | Command | From remote to local | From local to remote | Merges remote and local |
 | :--- | :---: | :---: | :---:|
 | `git fetch` | &check; | &#88; | &#88; |
