@@ -12,7 +12,7 @@
 `git fetch` checks your current branch to find out if a tracking branch exists. Then, it checks for changes in the remote branch and pulls them into the tracking branch. It doesn't change your local branch. To merge those changes into your branch, you need to do `git merge origin/master` for the "master" branch, which is probably also called "master".
 
 #### git pull ####
-Often `git push` and `git pull` are described as equivalent. This isn't entirely correct, since under the hood `git pull` does two things.
+Often `git fetch` and `git pull` are described as equivalent. This isn't entirely correct, since under the hood `git pull` does two things.
 
 `git pull` simply does a `git fetch` followed immediately by `git merge`. This is often what we desire to do, but some people prefer to use git fetch followed by git merge to make sure they understand the changes they are merging into their branch before the merge happens.
 
