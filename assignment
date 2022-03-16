@@ -9,7 +9,7 @@
 | `git push` | &#88; | &check; | &check; |
 
 #### git fetch ####
-`git fetch` checks your current branch to find out if a tracking branch exists. Then, it checks for changes in the remote branch and pulls them into the tracking branch. It doesn't change your local branch. To merge those changes into your branch, you need to do `git merge origin/master` for the "master" branch, which is probably also called "master".
+`git fetch` checks your current branch to find out if a tracking branch exists. Then, it checks for changes in the remote branch and pulls them into the tracking branch. It doesn't change your local branch. To merge those changes into your local branch, you need to use `git merge`.
 
 #### git pull ####
 `git fetch` and `git pull` are similar commands. But `git pull` does two things.
